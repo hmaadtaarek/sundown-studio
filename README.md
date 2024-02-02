@@ -1,14 +1,14 @@
-This is a design agency(sundown-studio) website clone.
+This is a design agency(sundown-studio) website clone 😍.
 
-Technolgy used:
+**Technolgy used:**
 
-HTML
-CSS
+HTML,
+CSS,
 JavaScript
 
-JS Libraries Used:
+**JS Libraries Used:**
 
-Gsap
+Gsap,
 Locomotive.js
 
 
