@@ -34,3 +34,18 @@ elems.forEach(function(elem){
     })
 })
 locomotive()
+
+// const footer = document.querySelector(".footer")
+// const sectionFooter = document.querySelector(".section_footer")
+// gsap.registerPlugin(ScrollTrigger);
+
+//     gsap.to("footer", {
+//         y: "-100%",
+//         ease: "power2.inOut",
+//         scrollTrigger: {
+//             trigger: "sectionFooter",
+//             start: "top top",
+//             end: "bottom bottom",
+//             scrub: 1, // Adjust scrub value for the speed of the animation
+//         }
+//     });

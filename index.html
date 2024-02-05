@@ -15,33 +15,7 @@
 
 <body>
     <div class="fixed_image"></div>
-    <div class="footer">
-        <div class="footer_wrapper">
-            <div class="footer_menu">
-                <div class="footer_links">
-                    <a href="#">work</a>
-                    <a href="#">studio</a>
-                    <a href="#">contact</a>
-                </div>
-                <div class="footer_email">
-                    <p>Get industry insights and creative inspiration straight to your inbox.</p>
-                    <input type="email" name="" id="">
-                </div>
-            </div>
-                <div class="footer_heading">
-                <h1>Sundown</h1>
-                <div class="line"></div>
-                <div class="footer_last">
-                    <p>Copyright &copy;Sundown Studio</p>
-                    <p><img src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15b7/64d3dd9edfb41666c35b15cb_Globe.svg"> Brooklyn, NY</p>
-                    <a href="">Instagram</a>
-                    <a href="">LinkedIn</a>
-                </div>
-            </div>
-        </div>
-
-        
-    </div>
+    
     <div class="main">
         <section class="section_1">
             <nav>
@@ -210,10 +184,44 @@
         </section>
         <section class="section_footer"></section>
     </div>
+    <div class="footer">
+        <div class="footer_wrapper">
+            <div class="footer_menu">
+                <div class="footer_links">
+                    <a href="#">work</a>
+                    <a href="#">studio</a>
+                    <a href="#">contact</a>
+                </div>
+                <div class="footer_email">
+                    <form method="get" class="form">
+                        <input class="text-field w-input" maxlength="256" placeholder="Email address" required="">
+                        <input type="submit" class="submit-button " value="Submit">
+                    </form>
+                    <div class="success-message w-form-done" tabindex="-1" role="region" aria-label="Email Form success"><div class="text-block">Thanks for signing up!</div></div><div class="error-message w-form-fail" tabindex="-1" role="region" aria-label="Email Form failure"><div class="text-block-2">Oops! Something went wrong.</div></div>
+                    <p>Get industry insights and creative inspiration straight to your inbox.</p>
+                    <input type="email" name="email" placeholder="Email">
+                </div>
+            </div>
+                <div class="footer_heading">
+                <h1>Sundown</h1>
+                <div class="line"></div>
+                <div class="footer_last">
+                    <p>Copyright &copy; Sundown Studio</p>
+                    <p id="logo-footer"><img src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15b7/64d3dd9edfb41666c35b15cb_Globe.svg"> Brooklyn, NY</p>
+                    <a href="">Instagram</a>
+                    <a href="">LinkedIn</a>
+                </div>
+            </div>
+        </div>
 
+        
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
     <script src="script.js"></script>
 </body>
 
 </html>
+

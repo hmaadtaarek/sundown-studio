@@ -21,7 +21,7 @@ html,body{
 .main{
     position: relative;
     z-index: 10;
-    color: #000;
+    /* color: #000; */
     overflow: hidden;
 }
 nav{
@@ -448,10 +448,9 @@ nav{
 .footer{
     height: 100vh;
     width: 100%;
-    z-index: 9;
+    z-index: 10;
     position: fixed;
     background-color: #000;
-    color: #fff;
     bottom: 0;
 }
 a{
@@ -459,42 +458,74 @@ a{
     color: #fff;
 }
 .footer_wrapper{
-    justify-content: flex-end;
+    justify-content: space-between;
     padding: 2vw 2vw;
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    z-index: 9;
 }
 .footer_menu{
     display: flex;
     justify-content: space-between;
-    padding: 0 4vw;
-    z-index: 9;
+    padding: 0 4.5vw;
+    margin-top: 2vw;
 }
 .footer_links{
     display: flex;
     flex-direction: column;
-    z-index: 9;
 }
 .footer_links a{
-    font-size: 2.5vw;
+    font-size: 2.4vw;
     text-transform: capitalize;
-    z-index: 10;
     transform: 0.2s all ease;
+    color: #efeae3;
 }
 .footer_links a:hover{
     color: #ffffff98;
 }
+.line{
+    border-bottom: 1px solid #efeae352;
+    margin-bottom: 1.5vw;
+}
 .footer_last{
     display: flex;
     justify-content: space-between;
-    padding: 0 4vw;
+    
+}
+.footer_last a, p{
+    font-family: 'roman';
+    color: #efeae3;
+    position: relative;
+}
+.footer_last a:before{
+    content: '';
+    position: absolute;
+    height: 1.5px;
+    width: 100%;
+    bottom: -3px;
+    left: 0;
+    transform: scaleX(0);
+    background: #efeae3;
+    transform-origin: right;
+    transition: transform 0.2s ease-in-out;
+}
+.footer_last a:hover:before{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+.footer_last p img{
+    width: 1.2vw;
+    height: 1.2vw;
+}
+#logo-footer{
+    display: flex;
+    gap: 3px;
 }
 .footer h1{
-    font-size: 23.5vw;
-    text-align: center;
+    font-size: 23.4vw;
+    color: #efeae3;
+    line-height: 23vw;
 }
 .section_footer{
     height: 120vh;
